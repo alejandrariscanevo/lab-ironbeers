@@ -5,6 +5,8 @@ const PunkAPIWrapper = require('punkapi-javascript-wrapper');
 const app = express();
 const punkAPI = new PunkAPIWrapper();
 
+import unirest
+response = unirest.get("https://assets.chucknorris.host/img/avatar/chuck-norris.png")
 
 
 
